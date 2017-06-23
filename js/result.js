@@ -46,6 +46,7 @@ $('.searchList').on('click', '.searchItem', function(){
 
 function querysearch(s){
     var result="";
+    $('.resultList').append(result)
 
     var postdata = new Object();
     postdata.s = s;
